@@ -1,10 +1,17 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "andrew-kerr",
+    "objectID": "thesis.html",
+    "href": "thesis.html",
+    "title": "Thesis",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "For my thesis, I contributed new functionality to the tidyclust package in R. The tidyclust package exists as a part of the tidymodels framework , which follows the principles of the tidyverse to establish a consistent and reproducible workflow for unsupervised learning algorithms. My work adapted the Apriori and ECLAT algorithms for frequent itemset mining. This involved establishing a cluster assignment strategy that groups items based on frequent itemsets and support values, as well as a standardized methodology for predicting missing items. You can read more about my design choices in my paper or see them in my presentation!\nThesis Paper - Frequent Itemset Mining with tidyclust in R\nThesis Code - tidyclust Package\nThesis Presentation"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "[WIP]"
   },
   {
     "objectID": "about.html",
@@ -12,5 +19,47 @@
     "title": "About",
     "section": "",
     "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "Resume",
+    "section": "",
+    "text": "California Polytechnic State University, San Luis Obispo\n     M.S. Statistics, Minor in Data Science\nGraduated: June 2025\n     GPA: 3.8 / 4.0"
+  },
+  {
+    "objectID": "resume.html#education",
+    "href": "resume.html#education",
+    "title": "Resume",
+    "section": "",
+    "text": "California Polytechnic State University, San Luis Obispo\n     M.S. Statistics, Minor in Data Science\nGraduated: June 2025\n     GPA: 3.8 / 4.0"
+  },
+  {
+    "objectID": "resume.html#experience",
+    "href": "resume.html#experience",
+    "title": "Resume",
+    "section": "Experience",
+    "text": "Experience\n\nStatistical Consultant\nDepartment of Statistics Cal Poly San Luis Obispo\nApril 2025 - June 2025\n\nProvided statistical guidance to university faculty and students on complex research designs and data analysis challenges\nCollaborated with clients and other consultants to define research questions, determine plausible analytical approaches, and interpret findings\nConducted in-depth data analysis, addressing issues such as high numbers of zeros and non-normal data distributions\nCommunicated complex statistical methodologies and results effectively to non-statistical audiences, translating data into actionable knowledge\n\n\n\nStudent Researcher for DL4S&R\nCal Poly San Luis Obispo\nFebruary 2023 - June 2025\n\nPerform exploratory data analysis on thousands of search and rescue missions\nInvestigate machine learning and deep learning methodologies to enhance training and evaluation of a multimodal model\nDevelop scripts using R and Python to perform data cleaning while documenting modifications and findings using Quarto and Jupyter notebooks\n\n\n\nUndergraduate Research Fellow\nDepartment of Statistics Cal Poly San Luis Obispo\nJanuary 2022 - August 2022\n\nDeveloped the largest national database of sexual misconduct cases (20k records) between K-12 educators through data collection and database merging\nComputed descriptive statistics and visualizations using Python and R for research paper\nCleaned collected and outside data, then merged 6 databases together while avoiding duplicate observations"
+  },
+  {
+    "objectID": "resume.html#projects",
+    "href": "resume.html#projects",
+    "title": "Resume",
+    "section": "Projects",
+    "text": "Projects\n\nThesis\nSeptember 2024 - June 2025\nFrequent Itemset Mining with tidyclust in R\n\nContributed implementations for Apriori and ECLAT algorithms to the tidyclust package in R, expanding the package to include frequent itemset mining\nIntegrated a novel clustering approach that groups column variables based on their “dominant” frequent itemsets\nDesigned and implemented a new prediction methodology framed as a recommender system to predict missing items in transactional datasets, utilizing confidence from frequent itemsets\nCreated new functions, extract_predictions() and augment_itemset_predict(), to standardize and prepare frequent itemset prediction outputs for user-friendly analysis and evaluation within the tidymodels framework\n\n\n\nTFT API\nSeptember 2023 - Present\n\nUtilized Riot Games API to scrape and clean 10,000+ TFT match histories, implementing custom Python functions for efficient data extraction and preprocessing\nDesigned a relational database using SQLAlchemy and Supabase to store and query match data\nApplied multilevel modeling in R to analyze player performance trends, identifying key factors correlated with win rates\nBuilt a Shiny web app to recommend data-driven strategies based on player inputs\n\n\n\nWorld Bank Digital Development Classification Project\nStudent Consultant\nJanuary 2024 - June 2024\n\nDeveloped and compared two classification methods: a rule-based keyword approach and machine learning models (BERT, LLAMA, BART)\nImplemented filtering and aggregation methods to track project progress and measure impact on broadband connectivity across countries\nProposed a hybrid classification model combining TF-IDF and contextual embeddings for enhanced accuracy"
+  },
+  {
+    "objectID": "resume.html#programming-languages",
+    "href": "resume.html#programming-languages",
+    "title": "Resume",
+    "section": "Programming Languages",
+    "text": "Programming Languages\n\nJava\nJMP\nMinitab\nPython\nR\nSQL\nSAS"
+  },
+  {
+    "objectID": "resume.html#certifications-and-awards",
+    "href": "resume.html#certifications-and-awards",
+    "title": "Resume",
+    "section": "Certifications and Awards",
+    "text": "Certifications and Awards\n\nNational Statistics Honarary Society Member\nMay 2023\nMu Sigma Rho\n\n\nSAS Certified Specialist: Base Programming Using SAS 9.4\nMarch 2022\nSAS Certification"
   }
 ]

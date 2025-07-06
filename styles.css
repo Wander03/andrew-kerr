@@ -1,1 +1,16 @@
-/* css styles */
+/* styles.css */
+
+/* Centering the description on Home Page */
+.quarto-about-jolla .description {
+  text-align: center;
+}
+
+/* Spacing the tools icons */
+.quarto-navbar-tools .quarto-navigation-tool {
+  /*
+  1em = 16px
+  Original px-1 is 0.25rem (4px).
+  */
+  padding-left: 8px !important; /* Increase left padding */
+  padding-right: 8px !important; /* Increase right padding */
+}

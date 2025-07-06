@@ -1,0 +1,19 @@
+---
+title: "Thesis"
+---
+
+For my thesis, I contributed new functionality to the `tidyclust` package in `R`. 
+The `tidyclust` package exists as a part of the `tidymodels` framework , which 
+follows the principles of the `tidyverse` to establish a consistent and 
+reproducible workflow for unsupervised learning algorithms. My work adapted the 
+Apriori and ECLAT algorithms for frequent itemset mining. This involved 
+establishing a cluster assignment strategy that groups items based on frequent 
+itemsets and support values, as well as a standardized methodology for 
+predicting missing items. You can read more about my design choices in my paper 
+or see them in my presentation!
+
+[Thesis Paper - Frequent Itemset Mining with tidyclust in R](https://digitalcommons.calpoly.edu/theses/3019/){target="_blank"}
+
+[Thesis Code - tidyclust Package](https://github.com/Wander03/tidyclust){target="_blank"}
+
+[Thesis Presentation](files/thesis_presentation.pdf){target="_blank"}

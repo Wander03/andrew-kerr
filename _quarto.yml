@@ -3,20 +3,28 @@ project:
   output-dir: docs
 
 website:
-  title: "andrew-kerr"
+  title: "Contents"
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - resume.qmd
+    tools:
+      - icon: linkedin
+        href: https://www.linkedin.com/in/andrew-d-kerr
+        target: _blank
+      - icon: github
+        href: https://github.com/Wander03
+        target: _blank
+      - icon: envelope
+        href: mailto:adkerr2001@gmail.com
 
 format:
   html:
     theme:
-      - cosmo
-      - brand
+      light: cosmo
+      dark: solar
+    respect-user-color-scheme: true
     css: styles.css
     toc: true
-
-
-
+    page-layout: full

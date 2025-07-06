@@ -1,0 +1,118 @@
+---
+title: "Resume"
+---
+
+## Education
+
+**California Polytechnic State University, San Luis Obispo**
+
+\ \ \ \ \ M.S. Statistics, Minor in Data Science
+     
+**Graduated: June 2025**
+     
+\ \ \ \ \ GPA: 3.8 / 4.0
+
+
+## Experience
+
+### Statistical Consultant
+**Department of Statistics Cal Poly San Luis Obispo**
+
+April 2025 - June 2025
+
+* Provided statistical guidance to university faculty and students on complex research designs and data analysis challenges
+
+* Collaborated with clients and other consultants to define research questions, determine plausible analytical approaches, and interpret findings
+
+* Conducted in-depth data analysis, addressing issues such as high numbers of zeros and non-normal data distributions
+
+* Communicated complex statistical methodologies and results effectively to non-statistical audiences, translating data into actionable knowledge
+
+### Student Researcher for DL4S&R
+**Cal Poly San Luis Obispo**
+
+February 2023 - June 2025
+
+* Perform exploratory data analysis on thousands of search and rescue missions
+
+* Investigate machine learning and deep learning methodologies to enhance training and evaluation of a multimodal model
+
+* Develop scripts using R and Python to perform data cleaning while documenting modifications and findings using Quarto and Jupyter notebooks
+
+### Undergraduate Research Fellow
+**Department of Statistics Cal Poly San Luis Obispo**
+
+January 2022 - August 2022
+
+* Developed the largest national database of sexual misconduct cases (20k records) between K-12 educators through data collection and database merging
+
+* Computed descriptive statistics and visualizations using Python and R for research paper
+
+* Cleaned collected and outside data, then merged 6 databases together while avoiding duplicate observations
+
+
+## [Projects](projects.qmd)
+
+### [Thesis](thesis.qmd)
+
+September 2024 - June 2025
+
+Frequent Itemset Mining with `tidyclust` in `R`
+
+* Contributed implementations for Apriori and ECLAT algorithms to the tidyclust package in R, expanding the
+package to include frequent itemset mining
+
+* Integrated a novel clustering approach that groups column variables based on their "dominant" frequent itemsets
+
+* Designed and implemented a new prediction methodology framed as a recommender system to predict missing items in transactional datasets, utilizing confidence from frequent itemsets
+
+* Created new functions, `extract_predictions()` and `augment_itemset_predict()`, to standardize and prepare frequent itemset prediction outputs for user-friendly analysis and evaluation within the tidymodels framework
+
+### TFT API
+
+September 2023 - Present
+
+* Utilized Riot Games API to scrape and clean 10,000+ TFT match histories, implementing custom Python functions for efficient data extraction and preprocessing
+
+* Designed a relational database using SQLAlchemy and Supabase to store and query match data
+
+* Applied multilevel modeling in R to analyze player performance trends, identifying key factors correlated with win rates
+
+* Built a Shiny web app to recommend data-driven strategies based on player inputs
+
+### World Bank Digital Development Classification Project
+**Student Consultant**
+
+January 2024 - June 2024
+
+* Developed and compared two classification methods: a rule-based keyword approach and machine learning models (BERT, LLAMA, BART)
+
+* Implemented filtering and aggregation methods to track project progress and measure impact on broadband connectivity across countries
+
+* Proposed a hybrid classification model combining TF-IDF and contextual embeddings for enhanced accuracy
+
+
+## Programming Languages
+
+* `Java`
+* `JMP`
+* `Minitab`
+* `Python`
+* `R`
+* `SQL`
+* `SAS`
+
+
+## Certifications and Awards
+
+### National Statistics Honarary Society Member
+
+May 2023
+
+[Mu Sigma Rho](https://www.stat.purdue.edu/msr/)
+
+### SAS Certified Specialist: Base Programming Using SAS 9.4
+
+March 2022
+
+[SAS Certification](https://www.credly.com/badges/5dd7f7d3-c885-467c-bff0-ed752e024472)
