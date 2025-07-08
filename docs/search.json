@@ -11,35 +11,14 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Data Science Capstone: World Bank Digital Development Classification Project"
+    "text": "Data Science Capstone: World Bank Digital Development Classification Project\n\n\n\nData Science\n\nPython\n\nStatistics\n\n\n\n\n\n\n\nAndrew Kerr\n\n\nJun 12, 2024\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "projects.html#consulting",
-    "href": "projects.html#consulting",
-    "title": "Projects",
-    "section": "",
-    "text": "Data Science Capstone: World Bank Digital Development Classification Project"
-  },
-  {
-    "objectID": "projects.html#data-science",
-    "href": "projects.html#data-science",
-    "title": "Projects",
-    "section": "Data Science",
-    "text": "Data Science"
-  },
-  {
-    "objectID": "projects.html#statistics",
-    "href": "projects.html#statistics",
-    "title": "Projects",
-    "section": "Statistics",
-    "text": "Statistics"
-  },
-  {
-    "objectID": "projects/world_bank.html",
-    "href": "projects/world_bank.html",
+    "objectID": "projects/2024-06-12-data451/world_bank.html",
+    "href": "projects/2024-06-12-data451/world_bank.html",
     "title": "Data Science Capstone: World Bank Digital Development Classification Project",
     "section": "",
-    "text": "This data science capstone project developed an automated system to classify World Bank projects and summarize their activities, specifically focusing on broadband connectivity. The project addressed the challenge of encapsulating the World Bank’s impact due to the complexity and quantity of its projects.\nThe solution involved a three-step process:\n\nClassification: Two approaches, a Naïve approach and a Large Language Model (LLM) approach (using BERT and Llama models), were employed to classify projects based on whether they relate to broadband connectivity by analyzing indicator names.\nFiltering: Classified indicators were refined to ensure only the most up-to-date observations were kept and that ‘Progress Values’ were numerical.\nAggregation: Progress for each indicator was computed and converted to counts where necessary.\n\nThe project compared the Naïve, BERT, and Llama models, identifying their strengths and weaknesses in classification. Future steps include a hybrid classification approach combining BERT and TF-IDF, refining filtering and aggregation methods for LLM outputs, and leveraging pre-labeled data from the World Bank for enhanced model training and evaluation. Additionally, the BART-large-mnli model showed promise towards the end of the project, and could further enhance classification capabilities.\n\nPoster\n\n&lt;p&gt;\nYour browser does not support PDFs. &lt;a href=\"files/world_bank/world_bank_poster.pdf\"&gt;Download the PDF&lt;/a&gt;.\n&lt;/p&gt;\n\n\n\nSlides\n\n&lt;p&gt;\nYour browser does not support PDFs. &lt;a href=\"files/world_bank/world_bank_slides.pdf\"&gt;Download the PDF&lt;/a&gt;.\n&lt;/p&gt;\n\n\n\nReport\n\n&lt;p&gt;\nYour browser does not support PDFs. &lt;a href=\"files/world_bank/world_bank_report.pdf\"&gt;Download the PDF&lt;/a&gt;.\n&lt;/p&gt;"
+    "text": "This data science capstone project developed an automated system to classify World Bank projects and summarize their activities, specifically focusing on broadband connectivity. The project addressed the challenge of encapsulating the World Bank’s impact due to the complexity and quantity of its projects.\nThe solution involved a three-step process:\n\nClassification: Two approaches, a Naïve approach and a Large Language Model (LLM) approach (using BERT and Llama models), were employed to classify projects based on whether they relate to broadband connectivity by analyzing indicator names.\nFiltering: Classified indicators were refined to ensure only the most up-to-date observations were kept and that ‘Progress Values’ were numerical.\nAggregation: Progress for each indicator was computed and converted to counts where necessary.\n\nThe project compared the Naïve, BERT, and Llama models, identifying their strengths and weaknesses in classification. Future steps include a hybrid classification approach combining BERT and TF-IDF, refining filtering and aggregation methods for LLM outputs, and leveraging pre-labeled data from the World Bank for enhanced model training and evaluation. Additionally, the BART-large-mnli model showed promise towards the end of the project, and could further enhance classification capabilities.\nDue to an NDA, I can not share the github repository or data.\n\nReport\n\n  &lt;p&gt;Your browser does not support PDFs. &lt;a href=\"/files/world_bank/world_bank_report.pdf\"&gt;Download the PDF&lt;/a&gt;.&lt;/p&gt;\n\n\n\nPoster\n\n  &lt;p&gt;Your browser does not support PDFs. &lt;a href=\"/files/world_bank/world_bank_poster.pdf\"&gt;Download the PDF&lt;/a&gt;.&lt;/p&gt;\n\n\n\nSlides\n\n  &lt;p&gt;Your browser does not support PDFs. &lt;a href=\"/files/world_bank/world_bank_slides.pdf\"&gt;Download the PDF&lt;/a&gt;.&lt;/p&gt;"
   },
   {
     "objectID": "resume.html",

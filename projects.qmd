@@ -1,16 +1,8 @@
 ---
 title: "Projects"
+listing: 
+  contents: projects
+  type: grid # or `default` or `table`; each type has its own set of yaml options to include
+  sort: "date desc"
+  categories: true
 ---
-
-## Consulting
-
-- [Data Science Capstone: World Bank Digital Development Classification Project](projects/world_bank.qmd)
-
-## Data Science
-
-
-
-## Statistics
-
-
-
