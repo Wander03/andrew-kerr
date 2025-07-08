@@ -1,0 +1,26 @@
+---
+title: "Graduate Consulting: Balance Detection using Phones"
+description: "Practice in statistical consulting. Observing faculty-led consulting sessions. Organizing and leading consulting projects with faculty supervision. Discussion of statistical consulting cases in a seminar format."
+author: "Andrew Kerr"
+date: "05-07-2025"
+categories: [Consulting, JMP, SAS, Statistics]
+image: /images/jacob_phone.jpg
+---
+
+This consulting project was part of my graduate consulting curriculum, where 
+students provide statistical consulting for the statistics department. 
+
+The client (Jacob Matties) was a ME M.S. student working on their thesis project. 
+Jacob needed help determining whether a smartphone placed in different locations 
+(shirt pocket, pants pocket, handheld) could detect differences in balance between 
+different stances (single leg, both legs, tandem).
+
+My group used a generalized linear mixed model to detect this difference. In our
+report, we provided Jacob with instructions for how to perform this analysis in 
+JMP as well as our findings and interpretations of the analysis. We checked the
+JMP output with SAS output as well to be thorough. 
+
+[SAS Code](/files/jacob_matties/jacob_matties_GLM.sas){target="_blank"}
+
+[Report](/files/jacob_matties/jacob_matties_report.pdf){target="_blank"}
+

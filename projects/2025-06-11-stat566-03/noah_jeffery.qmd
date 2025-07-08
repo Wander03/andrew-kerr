@@ -1,0 +1,42 @@
+---
+title: "Graduate Consulting: Spinal Segment Angle Analysis"
+description: "Practice in statistical consulting. Observing faculty-led consulting sessions. Organizing and leading consulting projects with faculty supervision. Discussion of statistical consulting cases in a seminar format."
+author: "Andrew Kerr"
+date: "06-11-2025"
+categories: [Consulting, R, Statistics]
+image: /images/noah_spine.png
+---
+
+This consulting project was part of my graduate consulting curriculum, where 
+students provide statistical consulting for the statistics department. 
+
+The client (Noah Jeffery) was a Biomedical Engineering M.S. student 
+working on their thesis project. Noah had come to the consulting department 
+a few weeks earlier to help design his study, and has returned with collected
+data. He put three devices on his subjects to measure the angle of their spine
+while sitting, with the goal of showing that all three devices are necessary to 
+measure different postures.
+
+The first part of his study was 15 minutes of unstructured time. From this data
+he wanted summary statistics. The second part of the study had the subjects 
+following a guided video where they would perform multiple postures (good, 
+laying back, lumbar slouch, etc.). From this data he wanted what angle thresholds 
+and combinations that resulted in poor posture (anything that wasn't good posture)
+and to mark these postures in the 15 minutes of unstructured time. 
+
+My group did the following:
+
+- Used linear mixed models to determine the confidence and prediction intervals 
+for each posture for each device in the structured time (guided video section)
+
+- Created visualizations showing that each device was able to identify different
+postures, requiring all three devices to detect all postures
+
+- Applied the prediction intervals to the 15 minutes of unstructured time to 
+create plots for each subject, as well as summary statistics across all subjects 
+(e.g. time spent in each posture)
+
+[Github Repo](https://github.com/Wander03/Grad_Consulting_Noah_Jeffery){target="_blank"}
+
+[Report](/files/noah_jeffery_report.html){target="_blank"}
+

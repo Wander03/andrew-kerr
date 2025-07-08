@@ -7,10 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Andrew Kerr">
-<meta name="dcterms.date" content="2024-06-12">
-<meta name="description" content="Team-based design, implementation, deployment and delivery of a system or analytical methodology that involves working with and analyzing large quantities of data. Technical management of research and development teams. Technical documentation, quality assurance, integration and systems testing. Design and conduct of empirical studies. Visualization and presentation of results orally and in writing.">
+<meta name="dcterms.date" content="2025-05-02">
+<meta name="description" content="Practice in statistical consulting. Observing faculty-led consulting sessions. Organizing and leading consulting projects with faculty supervision. Discussion of statistical consulting cases in a seminar format.">
 
-<title>Data Science Capstone: World Bank Digital Development Classification Project – Contents</title>
+<title>Graduate Consulting: Spinal Segment Curve Analysis – Contents</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -298,16 +298,16 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-page">
-      <h1 class="title">Data Science Capstone: World Bank Digital Development Classification Project</h1>
+      <h1 class="title">Graduate Consulting: Spinal Segment Curve Analysis</h1>
                   <div>
         <div class="description">
-          Team-based design, implementation, deployment and delivery of a system or analytical methodology that involves working with and analyzing large quantities of data. Technical management of research and development teams. Technical documentation, quality assurance, integration and systems testing. Design and conduct of empirical studies. Visualization and presentation of results orally and in writing.
+          Practice in statistical consulting. Observing faculty-led consulting sessions. Organizing and leading consulting projects with faculty supervision. Discussion of statistical consulting cases in a seminar format.
         </div>
       </div>
                           <div class="quarto-categories">
                 <div class="quarto-category">Consulting</div>
-                <div class="quarto-category">Data Science</div>
                 <div class="quarto-category">Python</div>
+                <div class="quarto-category">R</div>
                 <div class="quarto-category">Statistics</div>
               </div>
                   </div>
@@ -326,7 +326,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">June 12, 2024</p>
+        <p class="date">May 2, 2025</p>
       </div>
     </div>
     
@@ -348,18 +348,16 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>This data science capstone project developed an automated system to classify World Bank projects and summarize their activities, specifically focusing on broadband connectivity. The project addressed the challenge of encapsulating the World Bank’s impact due to the complexity and quantity of its projects.</p>
-<p>The solution involved a three-step process:</p>
+<p>This consulting project was part of my graduate consulting curriculum, where students provide statistical consulting for the statistics department.</p>
+<p>The client (Elsa Bates) was a BMED M.S. student working on their thesis project involving using wearable posture-monitoring sensors (IMUs) to quantify spinal angles, and compare these measurements to the gold standard motion capture system sensors. Elsa needed help determining whether the IMU data is “close enough” to the motion capture data, and how to best summarise and present these findings across all 30 participants in her results section.</p>
+<p>In summary, my group did the following:</p>
 <ul>
-<li><p>Classification: Two approaches, a Naïve approach and a Large Language Model (LLM) approach (using BERT and Llama models), were employed to classify projects based on whether they relate to broadband connectivity by analyzing indicator names.</p></li>
-<li><p>Filtering: Classified indicators were refined to ensure only the most up-to-date observations were kept and that ‘Progress Values’ were numerical.</p></li>
-<li><p>Aggregation: Progress for each indicator was computed and converted to counts where necessary.</p></li>
+<li><p>Data Management (combine files, align times, calculate curve characteristics)</p></li>
+<li><p>Compare curves wholistically (visually, correlation coefficients, dynamic time warping)</p></li>
+<li><p>Compare characteristics of curves using linear mixed models (e.g., proportion of time spent in harmful posture, range of motion, etc.)</p></li>
 </ul>
-<p>The project compared the Naïve, BERT, and Llama models, identifying their strengths and weaknesses in classification. Future steps include a hybrid classification approach combining BERT and TF-IDF, refining filtering and aggregation methods for LLM outputs, and leveraging pre-labeled data from the World Bank for enhanced model training and evaluation. Additionally, the BART-large-mnli model showed promise towards the end of the project, and could further enhance classification capabilities.</p>
-<p>Due to an NDA, I can not share the github repository or data.</p>
-<p><a href="../..\files/world_bank/world_bank_report.pdf" target="_blank">Report</a></p>
-<p><a href="../..\files/world_bank/world_bank_poster.pdf" target="_blank">Poster</a></p>
-<p><a href="../..\files/world_bank/world_bank_slides.pdf" target="_blank">Slides</a></p>
+<p><a href="https://github.com/Wander03/Grad_Consulting_Elsa_Bates" target="_blank">Github Repo</a></p>
+<p><a href="../..\files/elsa_bates_report.pdf" target="_blank">Report</a></p>
 
 
 

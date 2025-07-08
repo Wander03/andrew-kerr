@@ -1,14 +1,10 @@
 ---
 title: "Data Science Capstone: World Bank Digital Development Classification Project"
+description: "Team-based design, implementation, deployment and delivery of a system or analytical methodology that involves working with and analyzing large quantities of data. Technical management of research and development teams. Technical documentation, quality assurance, integration and systems testing. Design and conduct of empirical studies. Visualization and presentation of results orally and in writing."
 author: "Andrew Kerr"
 date: "06-12-2024"
-categories: [Data Science, Python, Statistics]
+categories: [Consulting, Data Science, Python, Statistics]
 image: /images/world-bank-logo.jpg
-format: html
-embed-resources: true
-execute: 
-  echo: true
-  warning: false
 ---
 
 This data science capstone project developed an automated system to classify World Bank projects and summarize their activities, specifically focusing on broadband connectivity. The project addressed the challenge of encapsulating the World Bank's impact due to the complexity and quantity of its projects.
@@ -25,26 +21,8 @@ The project compared the Naïve, BERT, and Llama models, identifying their stren
 
 Due to an NDA, I can not share the github repository or data.
 
-### Report
+[Report](/files/world_bank/world_bank_report.pdf){target="_blank"}
 
-```{=html}
-<iframe src="/files/world_bank/world_bank_report.pdf" width="100%" height="800px" style="border: none;">
-  <p>Your browser does not support PDFs. <a href="/files/world_bank/world_bank_report.pdf">Download the PDF</a>.</p>
-</iframe>
-```
+[Poster](/files/world_bank/world_bank_poster.pdf){target="_blank"}
 
-### Poster
-
-```{=html}
-<iframe src="/files/world_bank/world_bank_poster.pdf" width="100%" height="800px" style="border: none;">
-  <p>Your browser does not support PDFs. <a href="/files/world_bank/world_bank_poster.pdf">Download the PDF</a>.</p>
-</iframe>
-```
-
-### Slides
-
-```{=html}
-<iframe src="/files/world_bank/world_bank_slides.pdf" width="100%" height="800px" style="border: none;">
-  <p>Your browser does not support PDFs. <a href="/files/world_bank/world_bank_slides.pdf">Download the PDF</a>.</p>
-</iframe>
-```
+[Slides](/files/world_bank/world_bank_slides.pdf){target="_blank"}

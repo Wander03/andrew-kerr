@@ -1,0 +1,31 @@
+---
+title: "Graduate Consulting: Spinal Segment Curve Analysis"
+description: "Practice in statistical consulting. Observing faculty-led consulting sessions. Organizing and leading consulting projects with faculty supervision. Discussion of statistical consulting cases in a seminar format."
+author: "Andrew Kerr"
+date: "05-02-2025"
+categories: [Consulting, Python, R, Statistics]
+image: /images/elsa_spine.png
+---
+
+This consulting project was part of my graduate consulting curriculum, where 
+students provide statistical consulting for the statistics department. 
+
+The client (Elsa Bates) was a BMED M.S. student working on their thesis project 
+involving using wearable posture-monitoring sensors (IMUs) to quantify spinal 
+angles, and compare these measurements to the gold standard motion capture 
+system sensors. Elsa needed help determining whether the IMU data is "close 
+enough" to the motion capture data, and how to best summarise and present these
+findings across all 30 participants in her results section. 
+
+In summary, my group did the following:
+
+- Data Management (combine files, align times, calculate curve characteristics)
+
+- Compare curves wholistically (visually, correlation coefficients, dynamic time warping)
+
+- Compare characteristics of curves using linear mixed models (e.g., proportion of time spent in harmful posture, range of motion, etc.)
+
+[Github Repo](https://github.com/Wander03/Grad_Consulting_Elsa_Bates){target="_blank"}
+
+[Report](/files/elsa_bates_report.pdf){target="_blank"}
+

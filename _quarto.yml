@@ -9,6 +9,7 @@ website:
       - href: index.qmd
         text: Home
       - resume.qmd
+      - thesis.qmd
       - projects.qmd
     tools:
       - icon: linkedin
@@ -23,8 +24,8 @@ website:
 format:
   html:
     theme:
-      light: cosmo
-      dark: solar
+      light: minty
+      dark: superhero
     respect-user-color-scheme: true
     css: styles.css
     toc: true

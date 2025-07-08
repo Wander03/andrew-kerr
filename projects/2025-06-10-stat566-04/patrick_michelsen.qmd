@@ -1,0 +1,33 @@
+---
+title: "Graduate Consulting: Statistical Analysis of Soil Data"
+description: "Practice in statistical consulting. Observing faculty-led consulting sessions. Organizing and leading consulting projects with faculty supervision. Discussion of statistical consulting cases in a seminar format."
+author: "Andrew Kerr"
+date: "06-10-2025"
+categories: [Consulting, R, Statistics]
+image: /images/patrick_soil.jpg
+---
+
+This consulting project was part of my graduate consulting curriculum, where 
+students provide statistical consulting for the statistics department. 
+
+The client (Patrick Michelsen) was an Environmental Management M.S. student 
+working on their thesis project. Patrick needed guidance on what statistical
+method to use for his randomized complete block design study with 6 response 
+values. His main issue was he has many missing values and values under the limit
+of detection (LOD), aka left censored.
+
+My group presented two approaches: 
+
+- Using Bayesian Statistics with the `brms` library, which allowed us to use a 
+mixed model with left censored data
+
+- Treating the LOD values as 0 and using a Zero-Inflated model to separately 
+model the LOD and actual values
+
+For the two response variables without any LOD values, we presented generalized 
+linear mixed models.
+
+[Github Repo](https://github.com/Wander03/Grad_Consulting_Patrick_Michelsen){target="_blank"}
+
+[Report](/files/patrick_michelsen_report.html){target="_blank"}
+
