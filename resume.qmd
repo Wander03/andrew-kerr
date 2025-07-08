@@ -103,16 +103,21 @@ January 2024 - June 2024
 * `SAS`
 
 
+## Publications
+
+#### [Taking the Next Step in Exploring the Literary Digest 1936 Poll](https://www.tandfonline.com/doi/full/10.1080/26939169.2024.2395505){target="_blank"}
+
+
 ## Certifications and Awards
 
 ### National Statistics Honarary Society Member
 
 May 2023
 
-[Mu Sigma Rho](https://www.stat.purdue.edu/msr/)
+[Mu Sigma Rho](https://www.stat.purdue.edu/msr/){target="_blank"}
 
 ### SAS Certified Specialist: Base Programming Using SAS 9.4
 
 March 2022
 
-[SAS Certification](https://www.credly.com/badges/5dd7f7d3-c885-467c-bff0-ed752e024472)
+[SAS Certification](https://www.credly.com/badges/5dd7f7d3-c885-467c-bff0-ed752e024472){target="_blank"}

@@ -9,6 +9,7 @@ website:
       - href: index.qmd
         text: Home
       - resume.qmd
+      - projects.qmd
     tools:
       - icon: linkedin
         href: https://www.linkedin.com/in/andrew-d-kerr

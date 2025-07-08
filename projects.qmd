@@ -2,4 +2,15 @@
 title: "Projects"
 ---
 
-[WIP]
+## Consulting
+
+- [Data Science Capstone: World Bank Digital Development Classification Project](projects/world_bank.qmd)
+
+## Data Science
+
+
+
+## Statistics
+
+
+
