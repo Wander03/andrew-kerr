@@ -1,7 +1,6 @@
 ---
 title: "Data Science Capstone: World Bank Digital Development Classification Project"
 description: "Team-based design, implementation, deployment and delivery of a system or analytical methodology that involves working with and analyzing large quantities of data. Technical management of research and development teams. Technical documentation, quality assurance, integration and systems testing. Design and conduct of empirical studies. Visualization and presentation of results orally and in writing."
-author: "Andrew Kerr"
 date: "06-12-2024"
 categories: [Consulting, Data Science, Python, Statistics]
 image: /images/world-bank-logo.jpg

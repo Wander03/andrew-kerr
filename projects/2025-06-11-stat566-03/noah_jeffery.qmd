@@ -1,7 +1,6 @@
 ---
 title: "Graduate Consulting: Spinal Segment Angle Analysis"
 description: "Practice in statistical consulting. Observing faculty-led consulting sessions. Organizing and leading consulting projects with faculty supervision. Discussion of statistical consulting cases in a seminar format."
-author: "Andrew Kerr"
 date: "06-11-2025"
 categories: [Consulting, R, Statistics]
 image: /images/noah_spine.png

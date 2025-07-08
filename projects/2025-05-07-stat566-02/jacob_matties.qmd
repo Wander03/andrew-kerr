@@ -1,7 +1,6 @@
 ---
 title: "Graduate Consulting: Balance Detection using Phones"
 description: "Practice in statistical consulting. Observing faculty-led consulting sessions. Organizing and leading consulting projects with faculty supervision. Discussion of statistical consulting cases in a seminar format."
-author: "Andrew Kerr"
 date: "05-07-2025"
 categories: [Consulting, JMP, SAS, Statistics]
 image: /images/jacob_phone.jpg
