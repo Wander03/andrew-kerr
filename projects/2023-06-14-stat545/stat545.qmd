@@ -1,0 +1,52 @@
+---
+title: "STAT 545: Applied Stochastic Processes"
+description: "Properties, simulation, and application of stochastic processes. Discrete-time and continuous-time Markov chains, hidden Markov models, Poisson processes, Gaussian processes, continuous-state Markov processes. Markov chain Monte Carlo (MCMC) simulation methods and applications. Estimation methods for stochastic processes."
+date: "06-14-2023"
+categories: [R, Statistics]
+image: /images/stat545.png
+---
+
+This class did not have a final project, however it had multiple challenging 
+projects throughout the Quarter. 
+
+[Github Repo](https://github.com/Wander03/Stat545){target="_blank"}
+
+### Simple Random Walk
+
+This project required me to write my own simple random walk function and use it
+to answer multiple questions
+
+[Project 1 Report](/files/stat545/simple_random_walk.html){target="_blank"}
+
+### Markov Chains
+
+This project required me to write my own code to simulate markov chains and 
+approximate distributions.
+
+[Project 2 Report](/files/stat545/markov_chains.html){target="_blank"}
+
+### More Markov Chains
+
+This project required me to further explore markov chains, absorption states, and
+stationary distributions.
+
+[Project 3 Report](/files/stat545/more_MC.html){target="_blank"}
+
+### Chutes and Ladders and MCMC
+
+This project had me create a board of chutes and ladders, following specific set up
+rules. Throughout the project I explored time to absorption (how many turns it takes 
+to get to the end of the board) and used simulation to determine the placement of 
+each chute and ladder to minimize and maximize the time to absorption.
+
+[Project 4 Report](/files/stat545/chutes_and_ladders_MCMC.html){target="_blank"}
+
+### Costco Time Markov Chains
+
+This project had me create a Costco gas station, fully equipped with multiple islands,
+pumps, and wait times. I simulated a multitude of items such as the distribution of 
+number of cars in the system, fraction of time there are no cars in the system, 
+and customer wait time. I created different types of cars (i.e. will only join queues on the right)
+using `setClass` for easy tracking!
+
+[Project 5 Report](/files/stat545/costco_time_MC.html){target="_blank"}

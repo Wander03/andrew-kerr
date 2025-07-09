@@ -1,0 +1,37 @@
+---
+title: "CSC 365: Esports Gambling Application"
+description: "Basic principles of database management systems (DBMS) and of DBMS application development. DBMS objectives, systems architecture, database models with emphasis on Entity-Relationship and Relational models, data definition and manipulation languages, the Structured Query Language (SQL), database design, application development tools."
+date: "09-12-2022"
+categories: [Python, SQL]
+image: /images/gambling.jpg
+---
+
+The final project for this class was to build an application backed by a 
+database that handles transactions. The application needed some form of user 
+interface (e.g., command-line, website, etc.), and must be able to handle 
+multiple users concurrently with a user-login system. The application has both a 
+transactional side (for example if a hotel reservation system it should allow
+you to book hotel rooms) and a reporting side (for example, if a hotel 
+reservation system, you should be able to get a report of vacancies over time). 
+It must be able to support at least 3 different types of transactions and 3 
+different types of reporting queries, where the reporting queries allow multiple
+dimensional breakdowns selectable by the user. Lastly, the database has at least 
+100k rows of total data in it. 
+
+My group chose to create an esports team gambling app, specifically CSGO. Users 
+can login and bet on specific aspects of each match between multiple different 
+teams. This can be from which player will deal the most damage to which team 
+will win to whether or not a certain amount of kills are met. Users are able 
+to deposit money and withdraw money from their account.
+
+Users have access to summary statistics of their bets and statistics from past 
+matches which can be broken down by team, player, map, and year. Some statistics 
+include money won/lost over time and bets placed on team/player by year. Admins 
+can see the amount of profit made from each user, the amount of profit made by 
+bets on a team/player in a year.
+
+User and game data was saved in a relational-database style using `sqlalchemy`.
+
+[Github Repo](https://github.com/Wander03/Intro-to-Database-Systems){target="_blank"}
+
+[Data](https://www.kaggle.com/datasets/mateusdmachado/csgo-professional-matches?select=players.csv){target="_blank"}

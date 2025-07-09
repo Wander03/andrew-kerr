@@ -1,0 +1,33 @@
+---
+title: "CSC 369: Electric Vehicle Ownership"
+description: "Introduction to distributed computing paradigms and cloud computing. Modern distributed computing infrastructures. Problem-solving in a distributed computing environment."
+date: "03-16-2023"
+categories: [Data Science, Hadoop, Java, PySpark, Python]
+image: /images/electric_car.jpeg
+---
+
+We had the option of using Hadoop or Pyspark for this project since we learned 
+both during the course, I chose to use Pyspark.
+
+For the final project for this course, I investigated electric vehicle ownership
+within Washington as of February 17, 2023. My focus was to answer the 
+following questions:
+
+- Has there been an increase in electric vehicle ownership within the past few years?
+
+- What make of vehicle was the most popular each year? Within each make, was there a stand out model?
+
+- Are there more Full Electric or Hybrid vehicles currently registered? Do different cities favor one type over the other? Do counties? Do Postal Codes?
+
+At the end of my analysis, I could conclude that over time there has been an 
+increase in ownership of electric vehicles in Washington; with larger increases 
+in the past two years. From 2011 to 2017, the Nissan Leaf was the most popular 
+vehicle (I owned one of those!), and from 2018 to present day Tesla has held the 
+reigns. Currently full electric vehicles are the most popular compared against 
+hybrid vehicles, regardless of location. This follows what we saw from question 
+2 since Tesla, a full electric vehicle manufacturer, has been the dominate make 
+for the past few years.
+
+[Github Repo](https://github.com/Wander03/CSC-369---Final-Project){target="_blank"}
+
+[Data](https://catalog.data.gov/dataset/electric-vehicle-population-data){target="_blank"}

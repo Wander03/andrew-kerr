@@ -1,0 +1,46 @@
+---
+title: "Data 403: Iowa Liquor Sales Analysis"
+description: "Project-based lab component of DATA 401 and DATA 402. Projects involving comparison of predictive and interpretable regression models, implementing linear classifiers with gradient descent, implementing neural networks from scratch, and deep learning."
+date: "10-25-2023"
+categories: [Data Science, Python, Statistics]
+image: /images/liquor.jpg
+---
+
+This project consisted of 2 practice clients to prepare us for real client 
+projects. Alongside preparing reports for these clients, we gave in person 
+presentations!
+
+### Client A
+
+The first client, Booze 'R' Us, requested a method by which to predict future sales for growth
+purposes. We proposed a machine learning approach fitting a multiple linear
+regression model to historical monthly sales data from Booze 'R' Us's storefronts
+and applied the modeling process to a case study similar in scope. The model was
+fit to historical data and accurately predicted future monthly sales for an average
+storefront. Furthermore, the features included reflected factors that we found tend
+to drive or have the greatest impact on monthly liquor sales. Through our
+analysis, we selected three main feature setups and evaluated each to finalize
+using month, size of bottles, price, and type of alcohol. In addition to developing a
+robust predictive model, we identified specific sizes, price ranges, and liquor
+types that serve as the primary drivers of sales.
+
+### Client B
+
+The second client, Drinking Excess Alcohol is Dangerous (DEAD), was interested in 
+the driving factors behind small and large alcohol purchases in Iowa. We proposed 
+a machine learning model fitting a multiple linear regression model to a random 
+sample of past sales data. The model fits sales data and predicts the quantity 
+of alcohol purchased. The features of the final model represent the most 
+influential factors driving alcohol purchasing behavior. This investigation has 
+revealed valuable insights that can guide DEAD in shaping responsible alcohol 
+retailing initiatives, with a focus on seasonal, category-specific, and college 
+town-targeted campaigns, while upholding ethical principles of transparency and 
+data privacy.
+
+[Github Repo](https://github.com/Wander03/Data-Science-Projects-Lab---Project-1/tree/main){target="_blank"}
+
+[Client A Report](/files/iowa_liquor/client_a_report.pdf){target="_blank"}
+
+[Client B Report](/files/iowa_liquor/client_b_report.pdf){target="_blank"}
+
+[Slides](/files/iowa_liquor/slides.pdf){target="_blank"}

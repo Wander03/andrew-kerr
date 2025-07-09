@@ -1,0 +1,46 @@
+---
+title: "Data 403: Home Credit Default Risk"
+description: "Project-based lab component of DATA 401 and DATA 402. Projects involving comparison of predictive and interpretable regression models, implementing linear classifiers with gradient descent, implementing neural networks from scratch, and deep learning."
+date: "11-17-2023"
+categories: [Data Science, Python, Statistics]
+image: /images/home_credit.jpeg
+---
+
+This project consisted of a practice clients to prepare us for real client 
+projects. Alongside preparing reports for this client, we gave an in person 
+presentation!
+
+The overview we were provided was:
+
+You are a data scientist at a bank working in the mortgages division. You have 
+been tasked with building a model to predict whether an applicant will be able 
+to repay their loan. Use the data from 
+[this Kaggle competition](https://www.kaggle.com/c/home-credit-default-risk/), 
+specifically the data in application_train.csv, to build and evaluate your model.
+
+Furthermore, we were limited to implementing the machine learning algorithms,
+metrics, and cross-validation process from scratch.
+
+My group performed the following tasks and detailed our decisions and methods 
+in our report:
+
+- The first section, “Data Collection and Preparation,” includes a description of the data
+set, cleaning and preprocessing steps, and feature selection rationale.
+
+- The second section, “Model Selection and Validation,” includes an overview of the
+models: logistic regression, support vector machines, and linear discriminant analysis,
+along with criteria for model comparison and selection.
+
+- The third section, “Final Model, ” provides a detailed description and justification of the
+chosen final model.
+
+- The fourth section, “Ethical Concerns,” includes a summary of potential biases in the
+model and recommendations for ethical use.
+
+- The fifth section, “Conclusion,” summarizes our key findings and their significance.
+
+[Github Repo](https://github.com/Wander03/Home-Credit-Project){target="_blank"}
+
+[Report](/files/home_credit/home_credit_report.pdf){target="_blank"}
+
+[Slides](/files/home_credit/slides.pdf){target="_blank"}

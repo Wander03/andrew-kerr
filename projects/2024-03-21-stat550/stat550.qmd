@@ -1,0 +1,25 @@
+---
+title: "STAT 550: Generalized Linear Models"
+description: "Theory and application of linear and generalized linear models (GLMs). Logistic regression, nominal and ordinal responses, Poisson GLMs, correlated responses, random and mixed effects models, Bayesian GLMs, model selection and model checking."
+date: "03-21-2024"
+categories: [R, Statistics]
+image: /images/stat550.png
+---
+
+For the final project of this class, I was given a dataset and asked to perform 
+exploratory data analysis to find:
+
+- Find a model that “best” explains the relationship between your response variable(s) and the
+predictor variables, then interpret those relationships
+
+- Make predictions (either probabilities or counts—as appropriate) from your final model
+
+My final model ended up being a negative binomial generalized linear model
+with a log link. The Project Log details the steps I took to get to this final
+model.
+
+[Github Repo](https://github.com/Wander03/Stat550){target="_blank"}
+
+[Report](/files/stat550/project_report.pdf){target="_blank"}
+
+[Project Log](/files/stat550/project_log.pdf){target="_blank"}

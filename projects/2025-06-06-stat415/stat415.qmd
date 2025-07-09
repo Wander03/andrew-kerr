@@ -1,0 +1,36 @@
+---
+title: "STAT 415: Bayesian Survival Analysis of Customer Churn"
+description: "Bayes' theorem, prior and posterior distributions, likelihood functions, Markov Chain Monte Carlo methods, hierarchical modeling. Bayesian data analysis, comparison of Bayesian and classical (frequentist) approaches."
+date: "06-06-2025"
+categories: [R, Statistics]
+image: /images/bayesian.png
+---
+
+The final project for this class had my group explore a past Frequentist Analysis
+in a Bayesian light. Since I worked with the same person for my Survival Analysis
+final project, we decided to use this analysis. 
+
+We implement a Bayesian Weibull proportional hazards model. The Weibull 
+distribution was chosen based on the parametric survival analysis from our Stat 
+417 report, which identified it as the best-fitting distribution 
+(Anderson-Darling test statistic = 16986.795). We will use the same predictors 
+in the Bayesian model as we did in our frequentist model to enable a direct 
+comparison between the two.
+
+The Bayesian and frequentist approaches yielded similar estimates for key effects:
+
+- Contract effects differ by less than 2%
+
+- Payment method effects are consistent in direction and similar in magnitude
+
+- Both identify the same key predictors of churn
+
+The main differences are:
+
+- The Bayesian approach doesn't suffer from proportional hazards violations
+
+- We get full posterior distributions rather than point estimates
+
+[Github Repo](https://github.com/LiamQuach/STAT-415-Project){target="_blank"}
+
+[Report](/files/stat415_report.html){target="_blank"}

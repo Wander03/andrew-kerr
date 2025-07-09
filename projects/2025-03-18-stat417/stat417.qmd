@@ -1,0 +1,24 @@
+---
+title: "STAT 417: Survival Analysis of Customer Churn"
+description: "Parametric and nonparametric methods for analyzing survival data. Topics include Kaplan-Meier and Nelson-Aalen estimates, Cox regression models, accelerated failure time models. Use of statistical software to implement methods throughout course."
+date: "03-18-2025"
+categories: [Minitab, R, Statistics]
+image: /images/stat417.png
+---
+
+The final project for this class had my group explore a dataset using survival 
+analysis. 
+
+We decided to use the Telco Customer Churn dataset, which is a fictional dataset 
+created by IBM to simulate customer data for a telecommunications company. This 
+dataset was designed to help predict customer churn, referring to customers who 
+stop using the company’s services, with the goal of analyzing customer behavior 
+and developing strategies to retain customers.
+
+Our report is split into three sections: parametric survival analysis, 
+non-parametric survival analysis, and cox regression. The parametric analysis
+was done in JMP, while the latter two approaches were done in R.
+
+[Github Repo](https://github.com/Wander03/Survival-Analysis-Final-Project){target="_blank"}
+
+[Report](/files/stat417_report.pdf){target="_blank"}

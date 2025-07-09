@@ -1,0 +1,37 @@
+---
+title: "Data 301: Essay Autograder"
+description: "Introduction to the field of data science and the workflow of a data scientist. Types of data (tabular, textual, sparse, structured, temporal, geospatial), basic data management and manipulation, simple summaries, and visualization."
+date: "03-08-2022"
+categories: [Data Science, Python]
+image: /images/essay.gif
+---
+
+For the final project for this course, we applied the techniques learned in this 
+class to analyze a data set of personal interest to you. My group decided to 
+extend the ability to auto grade multiple choice and short response questions
+to essay questions, with a focus on sentiment analysis.
+
+We acquired over 11k essays from the Hewlett Foundation on Kaggle written by 
+students in grades 7 to 10 with 8 different prompts. Using the scores given to
+these essays along with a polarity value from a sentiment analysis API, we created
+two K-Nearest Neighbors models. One model predicted the essays grade based on the 
+words in the essay (TF-IDF), and the other on the polarity score of the essay. 
+Both models were run on each essay prompt individually as well as all essays at 
+once.
+
+When comparing the two models, on average the predictions from the polarity 
+models performed better than those from the TF/TF-IDF models. This supports our 
+findings from our data exploration; that the polarity does affect the score.
+
+From the data we acquired, accounting for the grade of the writer, type of essay, 
+the polarity, and the general polarity of the writing produces the best results.
+Furthermore, with the amount of samples we had, looking at all the essays overall provides better
+predictions than each prompt separately. With larger sample sizes of each prompt, we would
+expect the opposite conclusion since focusing on essays only from a single prompt results in less
+unexplained variability between the essays. Furthermore, we discovered that the polarity of an
+essay is correlated with different scores, as it proved to be a fairly good predictor on its own
+when compared to the TF-IDF model.
+
+[Github Repo](https://github.com/Wander03/final-project-Wander03){target="_blank"}
+
+[Report](/files/essay_autograder_report.pdf){target="_blank"}

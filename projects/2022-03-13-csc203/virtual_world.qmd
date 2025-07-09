@@ -1,0 +1,26 @@
+---
+title: "CSC 203: Virtual World Project"
+description: "Object-oriented programming and design with applications to project construction. Introduction to class design, interfaces, inheritance, generics, exceptions, streams, and testing."
+date: "03-13-2022"
+categories: [Java]
+image: /images/virtual_game.png
+---
+
+At the beginning of the Quarto we were given a single Java file with everything 
+to run the game put into it (a non-object oriented style). Throughout the quarter, 
+I applied different object-oriented programming techniques to this project.
+
+- Project 1: Move almost all static methods in the file Functions.java to the appropriate class
+
+- Project 2: Eliminate function duplication by refactoring the duplication into new abstract classes
+
+- Project 3: Refactor the duplicate variables/methods into a hierarchy of abstract classes
+
+- Project 4: Modify the pathing behavior of all entities that move within the world (A* Pathing)
+
+- Project 5: Modify the virtual world to support a "world-changing" event. This event is to be triggered by a mouse press and must have a localized effect. The event must be visualized by changing the affected background tiles and by modifying the affected entities. In addition, the world event must create a new type of entity
+
+Changes made to the code were planned out beforehand in a UML using draw.io. I 
+have multiple versions of my UML at each project point.
+
+[Github Repo](https://github.com/cpe203/quarter-long-project-Wander03){target="_blank"}
