@@ -2,7 +2,7 @@
 title: "Andrew Kerr"
 subtitle: "California Polytechnic State University, San Luis Obispo"
 description: M.S. Statistics, Minor in Data Science
-image: images/penguin_square.png
+image: images/old_me_2.jpg
 toc: false
 about: 
   template: jolla
